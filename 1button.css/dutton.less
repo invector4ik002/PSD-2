@@ -103,27 +103,35 @@
 //===================================================================||
 
 //===================================================================||
+@pagination-width: 1170px; // исходное значение/initial value :1170px;
 
+@circle-width: 30px; // исходное значение/initial value :30px;
+@circle-height: 30px; // исходное значение/initial value :30px;
 
+@circle-active-width: 40px; // исходное значение/initial value :40px;
+@circle-active-height: 40px; // исходное значение/initial value :40px;
 
 .pagination {
-    width: 1170px;
+    width: @pagination-width;
     // position: absolute;
     text-align: center;
     bottom: 19px;
     outline: 1px solid #212121;// block visibility
 }
 .circle {
-    width: 30px;
-    height: 30px;
+    width: @circle-width;
+    height: @circle-height;
     display: inline-block;
     background-color: #c7c7c7;
     border-radius: 50%;
     margin: 5px;
 }
 .circle-active {
-    width: 40px;
-    height: 40px;
+    width: @circle-active-width;
+    height: @circle-active-height;
     background-color: #212121;
     margin-bottom: 0px;
 }
+//===================================================================||
+
+//===================================================================||
