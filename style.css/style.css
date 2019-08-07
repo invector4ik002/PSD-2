@@ -57,9 +57,7 @@ body {/*импортируем шрифты*/
     letter-spacing: 1.4px;
     border-bottom: 3px solid #212121;
 }
-a.menu-link {
-    color:red;
-}
+
 /* ---------------------------------------------- */
 .slider-text {
     margin-top: 288px;
