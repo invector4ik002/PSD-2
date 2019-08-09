@@ -89,7 +89,7 @@ body {/*импортируем шрифты*/
 }
 /* ---------------------------------------------- */
 
-.button {/*31*/
+ .button {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
@@ -109,7 +109,7 @@ body {/*импортируем шрифты*/
     letter-spacing: 3.6px;
 }
 /* ------------------------------------------------------------------- */
-.pagination {
+/* .pagination {
     width: 1170px;
     position: absolute;
     text-align: center;
@@ -128,7 +128,7 @@ body {/*импортируем шрифты*/
     height: 40px;
     background-color: #212121;
     margin-bottom: 0px;
-}
+} */
 /* ------------------------------------------------------------------------ */
 /* --------------------------- 2 ---------------------------- */
 .menu-featured-dv {
@@ -177,8 +177,11 @@ body {/*импортируем шрифты*/
     color: #6c6c6c;
 }
 /* ------------------------------------- */
-
-.explore-all {
+.explore-all-location {
+    margin-left: 983px;
+    margin-top: -49px;
+}
+/* .explore-all {
     color: #212121;
     font-family: Montserrat;
     font-size: 18px;
@@ -193,9 +196,9 @@ body {/*импортируем шрифты*/
 }
 .explore-all > i {
     margin-bottom: 1px;
-}
+} */
 /* ?--------------------------------? */
-i {
+/* i {
     border:  solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -205,7 +208,7 @@ i {
 .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
-}
+} */
 /* ?--------------------------------? */
 .fishnet-chair {
     margin-top: -270px;
@@ -228,7 +231,7 @@ i {
     clear: both;
     float: left; 
 } 
-.btn-circle {
+/* .btn-circle {
     width: 48px;
     height: 48px;
     box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
@@ -236,6 +239,11 @@ i {
     border-radius: 50%;
     display: inline-block;
     margin-top: 62px;
+} */
+.btn-circle-location {
+    margin-left: 110px;
+    margin-top: 62px;
+    display: inline-block;
 }
 .btn-circle + p {
     padding-top: 19px;
@@ -461,7 +469,7 @@ i {
     line-height: 24px;
 }
 /* --------------------------------- */
-.slider-hot-btn {
+.btn-hot-deal-location {
     margin-top: 32px;
 }
 .slider-hot-pagination {
@@ -540,7 +548,7 @@ i {
     line-height: 24px;
     margin-top: 11px;
 }
-.exclusive-btn {
+.btn-exclusive-location {
     margin-top: 22px;
 }
 /* ------------------ 7 ---------------------- */

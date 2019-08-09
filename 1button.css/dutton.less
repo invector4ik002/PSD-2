@@ -3,7 +3,7 @@
 @height-btn-white: 45px; // исходное значение/initial value :45px;
 
 @width-arrow-black: 9px; // исходное значение/initial value : 9px;
-@height-arrow-black: 12px; // исходное значение/initial value :12px;
+@height-arrow-black: 19px; // исходное значение/initial value :12px;
 
 .btn-white {
     width: @width-btn-white;
@@ -22,6 +22,7 @@
     color: #212121; 
 
     .arrow-black {
+        margin-bottom: -3px;
         width: @width-arrow-black;
         height: @height-arrow-black;
         background-color: #ffff;
@@ -74,6 +75,7 @@
     color: #212121;
     
     .arrow-black {
+        margin-bottom: -2px;
         width: @width-arrow-black;
         height: @height-arrow-black;
         background-color: #ffff;
@@ -93,10 +95,10 @@
     // margin-top: 62px;
     
     .arrow-black {
-        width: @width-arrow-black;
-        height: @height-arrow-black;
-        margin-top: 11px;
-        margin-left: 19px;
+        width: 12px;//@width-arrow-black;
+        height: 15px;//@height-arrow-black;
+        margin-top: 17px;
+        margin-left: 6px;
         background-color: #ffff;
     }
 }
@@ -113,10 +115,10 @@
 
 .pagination {
     width: @pagination-width;
-    // position: absolute;
+    position: absolute;
     text-align: center;
     bottom: 19px;
-    outline: 1px solid #212121;// block visibility
+   // outline: 1px solid #212121;// block visibility
 }
 .circle {
     width: @circle-width;
