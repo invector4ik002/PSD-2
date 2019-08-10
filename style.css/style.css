@@ -28,8 +28,6 @@ body {/*импортируем шрифты*/
 /* ---------------------------------------------- */
 .header {
     padding-top: 63px;
-    /* width: 1170px;
-    height: 26px; */
 }
 .menu {
     float: right;
@@ -57,7 +55,6 @@ body {/*импортируем шрифты*/
     letter-spacing: 1.4px;
     border-bottom: 3px solid #212121;
 }
-
 /* ---------------------------------------------- */
 .slider-text {
     margin-top: 288px;
@@ -73,9 +70,6 @@ body {/*импортируем шрифты*/
     font-size: 62px;
     font-weight: 100;
     text-transform: uppercase;
-    /* line-height: 72px; */
-    /* margin-top: 22px; */
-    /* margin-left: 8px; */
 }
 .slider-content {
     color: #6c6c6c;
@@ -85,51 +79,8 @@ body {/*импортируем шрифты*/
     margin-top: 20px;
     margin-left: 8px;
     line-height: 24px;
-    margin-bottom: 32px;
+    margin-bottom: 33px;
 }
-/* ---------------------------------------------- */
-
- .button {
-    color: #212121;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #212121;
-    letter-spacing: 3.6px;
-    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-    background-color: #ffffff;
-    border-radius: 23px;
-    background-color: #ffffff;
-    width: 212px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    letter-spacing: 3.6px;
-}
-/* ------------------------------------------------------------------- */
-/* .pagination {
-    width: 1170px;
-    position: absolute;
-    text-align: center;
-    bottom: 19px;
-}
-.circle {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    background-color: #c7c7c7;
-    border-radius: 50%;
-    margin: 5px;
-}
-.circle-active {
-    width: 40px;
-    height: 40px;
-    background-color: #212121;
-    margin-bottom: 0px;
-} */
-/* ------------------------------------------------------------------------ */
 /* --------------------------- 2 ---------------------------- */
 .menu-featured-dv {
     height: 369px;
@@ -138,7 +89,6 @@ body {/*импортируем шрифты*/
     margin-left: 98px;
 }
 .menu-featured {
-    display: inline-block;
     float: left;
     margin-top: -142px;
     padding-top: 15px;
@@ -149,7 +99,6 @@ body {/*импортируем шрифты*/
     border-bottom: 1px solid #6c6c6c;
     padding-bottom: 18px;
     padding-top: 119px;
-    display: inline-block;
 }
  .menu-featured a {
     text-decoration: none;   
@@ -164,7 +113,6 @@ body {/*импортируем шрифты*/
 .menu-list-featured-active a {
     color: #212121;
 }
-
 .menu-list-featured-passive {
     font-size: 36px;
     font-weight: 700;
@@ -179,49 +127,19 @@ body {/*импортируем шрифты*/
 /* ------------------------------------- */
 .explore-all-location {
     margin-left: 983px;
-    margin-top: -49px;
+    margin-top: -51px;
 }
-/* .explore-all {
-    color: #212121;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-    text-transform: uppercase;
-    letter-spacing: 3.6px;
-    margin-left: 983px;
-    margin-top: -49px;
-    display: block;
-    float: left;
-}
-.explore-all > i {
-    margin-bottom: 1px;
-} */
-/* ?--------------------------------? */
-/* i {
-    border:  solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin-bottom: -13px;
-}
-.right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-} */
-/* ?--------------------------------? */
-.fishnet-chair {
-    margin-top: -270px;
-    margin-left: -2px;
+.fishnet-chair-display-none {
+    margin-left: -1px;
     width: 270px;
     height: 270px;
     background-image: url(../img/back.svg);
     text-align: center;
     clear: both;
     float: left;
-    position: relative; 
+    display: none;
 }
- .fishnet-chair2 {
+.featured-new-product-1 {
     margin-top: 41px;
     margin-left: -2px;
     width: 270px;
@@ -231,15 +149,45 @@ body {/*импортируем шрифты*/
     clear: both;
     float: left; 
 } 
-/* .btn-circle {
-    width: 48px;
-    height: 48px;
-    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-    background-color: #ffffff;
-    border-radius: 50%;
+.featured-new-product-1:hover > .fishnet-chair-display-none {
+    display: block;
+}
+.featured-new-product-2 {
+    width: 270px;
+    height: 270px;
     display: inline-block;
-    margin-top: 62px;
-} */
+    margin-top: 67px;
+    margin-left: -4px;
+    background-image: url(../img/product-2.svg);
+}
+.featured-new-product-2:hover > .fishnet-chair-display-none {
+    display: block;
+}
+.featured-new-product-3 {
+    width: 270px;
+    height: 270px;
+    clear: both;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 29px;  
+    background-image: url(../img/product-3.svg);
+}
+.featured-new-product-3:hover > .fishnet-chair-display-none {
+    display: block;
+}
+.featured-new-product-4 {
+    width: 270px;
+    height: 270px;
+    clear: both;
+    margin-top: -272px;
+    margin-left: 20px;
+    background-image: url(../img/product-4.svg);
+    float: right;
+}
+.featured-new-product-4:hover > .fishnet-chair-display-none {
+    display: block;
+}
+/* ------------------------------------- */
 .btn-circle-location {
     margin-left: 110px;
     margin-top: 62px;
@@ -260,33 +208,6 @@ body {/*импортируем шрифты*/
     display: inline-block;
     text-align: center;
 }
-/* ---------------------- */
-.product-2 {
-    width: 270px;
-    height: 270px;
-    clear: both;
-    display: inline-block;
-    margin-top: 67px;
-    margin-left: -4px;
-    background-image: url(../img/product-2.svg);
-}
-/* ---------------------- */
-.product-3 {
-    width: 270px;
-    height: 270px;
-    clear: both;
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 29px;  
-}
-.product-4 {
-    width: 270px;
-    height: 270px;
-    clear: both;
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 20px;  
-}
 /* -------------------- 3 --------------------- */
 .promo-fishnet-chair {
     float: left;
@@ -305,13 +226,10 @@ body {/*импортируем шрифты*/
     clear: both;
     margin-left: 682px;
 }
-.promo-btn {
+.btn-white-home-location {
     margin-top: 34px;
     margin-left: 50px;
     float: left;
-}
-.promo-i {/* стрелочка в кнопочке )*/
-    margin-bottom: 1px;
 }
 .promo-exclusive-text {
     width: 115px;
@@ -323,7 +241,6 @@ body {/*импортируем шрифты*/
     line-height: 48px;
     text-transform: uppercase;
     letter-spacing: 1.8px;
-    display: inline-block;
     float: left;
     margin-top: 228px;
     margin-left: 51px;
@@ -333,7 +250,6 @@ body {/*импортируем шрифты*/
     font-family: Montserrat;
     font-size: 36px;
     font-weight: 700;
-    display: inline-block;
     clear: both;
     float: left;
     margin-top: 30px;
@@ -348,7 +264,6 @@ body {/*импортируем шрифты*/
     font-weight: 300;
     line-height: 24.04px;
     float: left;
-    clear: both;
     margin-top: 6px;
     margin-left: 51px;
 }
@@ -357,10 +272,8 @@ body {/*импортируем шрифты*/
     margin-top: 119px;
     margin-left: 98px;
     width: 1171px;
-    /* height: 869px; */
     margin-bottom: 120px;
     float: left;
-    clear: both;
 }
 .explore-all-trial{
     color: #212121;
@@ -369,18 +282,15 @@ body {/*импортируем шрифты*/
     line-height: 24px;
     text-transform: uppercase;
     letter-spacing: 3.6px;
-    display: inline-block;
     float: left;
     margin-top: -33px;
     margin-left: 980px;
-    clear: both;
 }
 .trending-products-text {
     color: #212121;
     font-family: Montserrat;
     font-size: 36px;
     font-weight: 700;
-    display: inline-block;
     float: left;
     margin-top: -3px;
 }
@@ -394,33 +304,31 @@ body {/*импортируем шрифты*/
 }
 .trending-products21-img {
     margin-top: 55px;
-    display: inline-block;
     margin-left: -370px;
     float: left;
 }
 .trending-products31-img {
     margin-top: 55px;
-    display: inline-block;
     margin-left: 31px;
     float: left;
 }
 .trending-products41-img {
     margin-top: 29px;
-    display: inline-block;
     margin-right: 400px;
     float: left;
 }
 .trending-products5-img {
     margin-top: 30px;
-    display: inline-block;
     margin-left: -370px;
     float: left;
 }
 .trending-product6-img {
     margin-top: 29px;
-    display: inline-block;
     margin-left: 31px;
     float: left;
+}
+.trending-product-outline:hover {
+    outline: 1px solid #212121;
 }
 /* -------------- 5 -------------------- */
 .slider-hot {
@@ -497,22 +405,18 @@ body {/*импортируем шрифты*/
     margin-left: 30px; 
 }
 .product-2-sm {
-    display: inline-block;
     float: right;
     margin-left: 30px;
 }
 .product-3-sm {
-    display: inline-block;
     float: right;
 }
 .product-4-sm {
-    display: inline-block;
     float: left;
     margin-top: -269px;
     margin-left: 600px;
 }
 .product-5-sm {
-    display: inline-block;
     float: right;
     margin-top: -269px;
     margin-bottom: 10px;
@@ -551,167 +455,5 @@ body {/*импортируем шрифты*/
 .btn-exclusive-location {
     margin-top: 22px;
 }
-/* ------------------ 7 ---------------------- */
-/* ------------------ 7.1 ---------------------- */
-/* .footer-background-image {
-    height: 516px;
-    background-image: url(../img/back-img.svg);
-    margin-top: 120px;
-}
-.footer-background-content {
-    width: 473px;
-    height: 347px;
-    margin-top: 125px;
-    margin-left: 98px;
-    float: left;
-}
-.footer-backg-header {
-    color: #6c6c6c;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 48px;
-    text-transform: uppercase;
-    color: #6c6c6c;
-    letter-spacing: 1.8px;
-    margin-top: -17px;
-}
-.footer-backg-bigtext {
-    margin-top: -10px;
-}
-.footer-backg-smalltext {
-    color: #6c6c6c;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 24px; 
-}
-.mobile-links {
-    margin-top: 33px;
-}
-.goopl {
-    margin-left: 10px;
-}
-/* -------------------- 7.2 ------------------- */
-/*.footer-down {
-    height: 384px;
-    background-color: #f7f7f7;
-    float: left;
-}
-/* ---------------------------- */
-/* .footer-down-contact {/*<div class="footer-down-contact>
-    width: 221px;
-    height: 139px;
-    float: left;
-    margin-top: 120px;
-    margin-left: 97px; 
-}*/
-/*.fd-textone, .fd-texttwo {
-color: #212121;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 300;
-line-height: 22px;
-}
-.marg-top {
-margin-top: 28px;
-} */
-/* ---------------------------- */
-/* ---------------------------- */
-/*.footer-down-information {
-    width: 422px;
-    height: 101px;
-    float: left;
-    margin-top: 120px;
-    margin-left: 80px;
-}
-.footer-down-inf-text {
-    width: 193px;
-    color: #212121;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 26px;
-    text-transform: uppercase;
-    letter-spacing: 0.7px;
-    display: inline-block;
-    float: left;
-}
-.marg-left {
-    margin-left: 36px;
-}
-/* ---------------------------- */
-/* ---------------------------- */
-/*.footer-down-lets {
-    width: 370px;
-    height: 147px;
-    float: left;
-    margin-top: 120px;
-    margin-left: 78px;
-}
-.email-img {
-    width: 369px;
-    height: 48px;
-    margin-top: 27px;
-    border: 1px solid #d9dee1;
-    min-height: 20px;
-    background-color: #ffff;
-}
-.footer-down-email {
-    border: none;
-    outline: none;
-    -webkit-appearance: none;
-    width: 334px;
-    height: 39px;
-    vertical-align: middle;
-    margin-left: 19px;
-    margin-top: 4px
-}
-.footer-down-email::-webkit-input-placeholder {
-    color: #6c6c6c;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-}
-.footer-down-img {
-    width: 21px;
-    height: 18px;
-    border: none;
-    background: url(../img/.jpg) no-repeat 50% 50%;
-    margin-bottom: -7px;
-    margin-left: -23px;
-}
-/* ---------------------------- */
-/* ---------------------------- */
-/*.footer-down-down {
-    width: 1171px;
-    height: 28px;
-    float: left;
-    margin-top: 67px;
-    margin-left: 98px;
-}
-.down-down-text {
-    color: #6c6c6c;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 26px;
-    text-transform: uppercase;
-    letter-spacing: 0.6px;
-    display: inline-block;
-    float: left;
-}
-.right-text {
-    float: right;
-}
-.dowd-ul {
-    display: inline-block;
-    float: left;
-    list-style-type: none;
-    margin-top: 2px;
-    margin-left: 158px;
-}
-.dowd-ul li {
-    display: inline-block;
-} */
-/* ---------------------------- */
+/* ---------------------------------------- */
+
