@@ -1,0 +1,90 @@
+/* <div class="header-our-products header-our-padding">
+        <div class="header">
+            <a href="../index.html"><img src="../img/logo.svg" alt="logo"></a>
+            <ul class="menu">
+                <li class="menu-list"><a href="#" class="menu-link menu-link-active">HOME</a> </li> 
+                <li class="menu-list"><a href="#" class="menu-link">PRODUCTS</a></li> 
+                <li class="menu-list"><a href="#" class="menu-link">HISTORY</a></li> 
+                <li class="menu-list"><a href="#" class="menu-link">SHOWROOM</a></li> 
+                <li class="menu-list"><a href="#" class="menu-link">CONTACT</a></li>
+                <li class="menu-list"><a href="#" class="menu-link"><img src="../img/search.svg" link="search"></a></li>
+            </ul>
+        </div>
+        <p class="header-our-headline">Our Products Range</p>
+    </div> */
+    /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+.header {
+    padding-top: 63px;
+}
+.menu {
+    float: right;
+}
+.menu-list {
+    list-style-type: none;
+    float: left; 
+}
+.menu-list > a {
+   text-decoration: none;
+}
+.menu-link:hover{
+    color:#212121;
+}
+.menu-link {/*17-22*/
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+.menu-link-active { /*17*/
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}   
+/* --------------------------------------------------- */
+.header-our-products {
+    height: 360px;
+    background-color: #f5f5f5;
+    margin-bottom: 71px;
+}
+.header-our-padding {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+/* --------------------------------------------------- */
+.header-our-headline {
+    color: #212121;
+    font-family: "Montserrat";
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 70px;
+    display: inline-block;
+    padding-bottom: -3px;
+    margin-bottom: 44px;
+    margin-top: 158px;
+    margin-left: 3px;
+    display: inline-block;
+}
+/* --------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto ;
+}
+body {/*импортируем шрифты*/
+    font-family: 'Montserrat', sans-serif;
+}
+.clearfix:after {/* clearfix-распостраненное название css-правила */
+    content:"";
+    display: table;
+    clear: both;
+}
+.padding-site {/* набивка сайта */
+    padding-left: 98px;
+    padding-right: 98px;
+}
+/* -------------------------------------------------------- */

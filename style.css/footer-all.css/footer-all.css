@@ -1,0 +1,219 @@
+/* <div class="footer-background-image">
+        <div class="footer-background-content">
+            <p class="footer-backg-header">mobile app</p>
+            <p class="footer-backg-bigtext slider-hot-bigtext">Find. Follow. Favorite.</p>
+            <p class="footer-backg-smalltext">Save your favorites and share your style.</p>
+            <img src="./img/app-store.svg" alt="app-store" class="mobile-links">
+            <img src="./img/google-play.svg" alt="google-play" class="mobile-links goopl">
+        </div>
+    </div>
+
+        <div class="footer-down">
+            <div class="footer-down-contact">
+            <p class="fd-header footer-backg-header">Contact Us</p>
+            <p class="fd-textone">132A Bridge RoadRichmond VIC 
+             Australia.</p>
+            <p class="fd-texttwo marg-top">
+             Talk to us on 1300 132
+             info@interior.com</p>
+        </div>
+
+        <div class="footer-down-information">
+              <p class="footer-backg-header">Useful Information</p>
+              <p class="footer-down-inf-text">Sales terms 
+                 Customer care
+                 Delivery
+             </p>
+              <p class="footer-down-inf-text marg-left">Architect accounts
+                 Careers
+                 <br>Exchanges & returns
+             </p>
+        </div>
+
+        <div class="footer-down-lets">
+            <p class="footer-backg-header">Let’s Stay in Touch!</p>
+            <p class="fd-textone">Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+         <form>
+         <div class="email-img">
+            <input type="email" class="footer-down-email" placeholder="your email address">
+            <input type="submit" class="footer-down-img"value="">
+         </div>
+         </form>
+        </div>
+
+        <div  class="footer-down-down">
+            <p class="down-down-text">© Copyright - INTERIOR 2016. All Rights Reserved.</p>
+             <ul class="dowd-ul">
+                 <li><a href="#" class="down-down-img"><img src="./img/Twitter-Bird-24.png" alt=""></a></li>
+                 <li><a href="#" class="down-down-img"><img src="./img/Facebook-24.png" alt=""></a></li>
+                 <li><a href="#" class="down-down-img"><img src="./img/Google-Plus-24.png" alt=""></a></li>
+                 <li><a href="#" class="down-down-img"><img src="./img/Pinterest-24.png" alt=""></a></li>
+             </ul>
+            <p class="down-down-text right-text">Terms & Conditions  /  Privacy policy & Cookies</p>
+        </div>
+    </div> */
+    /* ------------------------------------------------------------------------------------------------------------------ */
+    .footer-background-image {
+        height: 516px;
+        background-image: url(/img/back-img.svg);
+        margin-top: 120px;
+    }
+    .footer-background-content {
+        width: 473px;
+        height: 347px;
+        margin-top: 125px;
+        margin-left: 98px;
+        float: left;
+    }
+    .footer-backg-header {
+        color: #6c6c6c;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #6c6c6c;
+        letter-spacing: 1.8px;
+        margin-top: -17px;
+    }
+    .footer-backg-bigtext {
+        margin-top: -10px;
+        color: #212121;
+        font-family: "Montserrat";
+        font-size: 62px;
+        font-weight: 100;
+        line-height: 72px;
+        text-transform: uppercase;
+        display: inline-block;
+        padding-top: 6px;
+    }
+    .footer-backg-smalltext {
+        color: #6c6c6c;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 24px; 
+    }
+    .mobile-links {
+        margin-top: 33px;
+    }
+    .goopl {
+        margin-left: 10px;
+    }
+    /* -------------------- 7.2 ------------------- */
+    .footer-down {
+        height: 384px;
+        background-color: #f7f7f7;
+        float: left;
+    }
+    /* ---------------------------- */
+    .footer-down-contact {/*<div class="footer-down-contact>*/
+        width: 221px;
+        height: 139px;
+        float: left;
+        margin-top: 120px;
+        margin-left: 97px; 
+    }
+    .fd-textone,
+    .fd-texttwo {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    }
+    .marg-top {
+    margin-top: 28px;
+    }
+    /* ---------------------------- */
+    .footer-down-information {
+        width: 422px;
+        height: 101px;
+        float: left;
+        margin-top: 120px;
+        margin-left: 80px;
+    }
+    .footer-down-inf-text {
+        width: 193px;
+        color: #212121;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+        letter-spacing: 0.7px;
+        float: left;
+    }
+    .marg-left {
+        margin-left: 36px;
+    }
+    /* ---------------------------- */
+    .footer-down-lets {
+        width: 370px;
+        height: 147px;
+        float: left;
+        margin-top: 120px;
+        margin-left: 78px;
+    }
+    .email-img {
+        width: 369px;
+        height: 48px;
+        margin-top: 27px;
+        border: 1px solid #d9dee1;
+        min-height: 20px;
+        background-color: #ffff;
+    }
+    .footer-down-email {
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        width: 334px;
+        height: 39px;
+        vertical-align: middle;
+        margin-left: 19px;
+        margin-top: 4px
+    }
+    .footer-down-email::-webkit-input-placeholder {
+        color: #6c6c6c;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    .footer-down-img {
+        width: 21px;
+        height: 18px;
+        border: none;
+        background: url(/img/.jpg) no-repeat 50% 50%;
+        margin-bottom: -7px;
+        margin-left: -23px;
+    }
+    /* ---------------------------- */
+    .footer-down-down {
+        width: 1171px;
+        height: 28px;
+        float: left;
+        margin-top: 67px;
+        margin-left: 98px;
+    }
+    .down-down-text {
+        color: #6c6c6c;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        float: left;
+    }
+    .right-text {
+        float: right;
+    }
+    .dowd-ul {
+        float: left;
+        list-style-type: none;
+        margin-top: 2px;
+        margin-left: 158px;
+    }
+    .dowd-ul li {
+        display: inline-block;
+    }
